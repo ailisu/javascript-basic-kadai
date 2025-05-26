@@ -3,9 +3,10 @@ const holiday = ['正月','成人の日','建国記念日','天皇誕生日','�
 
 console.log(holiday);
 
-for(let i = 0; i <= 15; i += 1) {
+for(let i = 0; i < holiday.length; i += 1) {
     console.log(holiday[i]);
 }
+
 
 let counter = 0;
 while (counter < holiday.length) {
